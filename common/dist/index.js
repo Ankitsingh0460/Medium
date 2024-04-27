@@ -17,9 +17,5 @@ exports.signinInput = zod_1.default.object({
 exports.createBlogInput = zod_1.default.object({
     title: zod_1.default.string(),
     content: zod_1.default.string()
-});
-exports.updateblogInput = zod_1.default.object({
-    title: zod_1.default.string(),
-    content: zod_1.default.string(),
-    id: zod_1.default.string()
+
 });
