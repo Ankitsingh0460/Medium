@@ -10,6 +10,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route path='/' login={<Navigate replace to="appointments-history" />}/> 
           <Route path="/signup" element={<Signup />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/blog/:id" element={<Blog />} />
